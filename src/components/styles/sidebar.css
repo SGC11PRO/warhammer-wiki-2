@@ -1,0 +1,51 @@
+@import '/src/styles.css';
+
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    padding: 50px 0;
+    gap: 50px;
+
+    border-right: 1px solid var(--border);
+}
+
+.sidebar button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    background-color: #e8e8e810;
+    color: #e8e8e8;
+    border: 1.2px solid #e8e8e870;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+
+    cursor: pointer;
+}
+
+.sidebar button svg {
+    width: 25px;
+    height: 25px;
+
+    stroke: var(--text-light);
+    transition: 0.5s ease;
+}
+
+.sidebar button:hover {
+    border-color: var(--accent);
+    background-color: transparent;
+
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px 0 rgba(61, 193, 169, 0.3);
+}
+
+.sidebar button:hover svg {
+    stroke: var(--accent);
+}

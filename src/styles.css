@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zalando Sans', sans-serif;
+    color: var(--text-light);
+    list-style: none;
+
+    border: none;
+}
+
+:root
+{
+    --accent: #3dc195;
+    --bg-dark: #111015;
+    --border: #201f24;
+    --text-light: #ebeaed;
+    --bg-light: #1b1a1f;
+}
+
+.app
+{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    height: 100vh;
+
+    flex-direction: row;
+
+    background-color: var(--bg-dark);
+}
+
+
+
+.main
+{
+    flex: 1;
+    overflow: hidden;
+
+    padding: 50px;
+}
