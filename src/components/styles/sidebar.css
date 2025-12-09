@@ -42,7 +42,6 @@
     border-color: var(--accent);
     background-color: transparent;
 
-    transform: translateY(-5px);
     box-shadow: 0 5px 10px 0 rgba(61, 193, 169, 0.3);
 }
 
