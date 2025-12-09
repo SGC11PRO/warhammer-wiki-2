@@ -6,7 +6,6 @@ function Header() {
     <header className="header">
       <h1>Dashboard</h1>
       <p>Bienvenido, Sergio</p>
-
     </header>
   );
 }

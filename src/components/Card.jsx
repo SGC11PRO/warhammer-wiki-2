@@ -1,11 +1,14 @@
 import './styles/card.css';
 
-function Card({ title, content, width, height }) {
+function Card({ title, content, icon}) {
   return (
     <div className="card" >
         <div className="content">
-            <p>{content}</p>
-            <h3>{title}</h3>
+          <h3>{title}</h3>
+          <p>{content}</p>
+        </div>
+        <div className="icon">
+          <img src={icon} alt={title} />
         </div>
     </div>
   );
